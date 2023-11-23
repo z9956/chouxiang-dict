@@ -55,7 +55,7 @@ def main() -> None:
         dwg = svgwrite.Drawing(
             f'{LARGE_SUBDIR}/{i:03d}_{letter}.svg', size=(512, 512))
         dwg.viewbox(0, 0, 1000, 1000)
-        dwg.add(dwg.ellipse(center=(500, 500), r=(490, 490),
+        dwg.add(dwg.ellipse(center=(500, 500), r=(485, 485),
                 stroke='black', fill='white', stroke_width=30))
         dwg.add(dwg.ellipse(center=(500, 500), r=(420, 420),
                 stroke='black', fill='white', stroke_width=60))
